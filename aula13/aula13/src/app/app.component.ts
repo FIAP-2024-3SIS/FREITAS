@@ -11,8 +11,8 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'aula13';
 
-  exibir: boolean = true;
+  mudarCor: boolean = true;
   toggle(){
-    this.exibir = !this.exibir;
+    this.mudarCor = !this.mudarCor;
   }
 }
