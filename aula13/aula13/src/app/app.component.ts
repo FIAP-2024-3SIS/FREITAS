@@ -12,5 +12,22 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'aula13';
 
-  nome: string = "";
+  fiat = new carro("", "", "");
 }
+
+export class carro{
+  constructor(
+    cor: string,
+    nome: string,
+    placa: string
+  ){
+    this.cor = cor;
+    this.nome = nome;
+    this.placa = placa;
+  }
+public cor: string = "";
+public nome: string = "";
+public placa: string = "";
+
+}
+

@@ -1,7 +1,13 @@
+<article>
+<input [(ngModel)] = "fiat.cor" type="text" placeholder="Qual a cor do carro ?">
+<input [(ngModel)] = "fiat.nome" type="text" placeholder="Qual o nome do carro ?">
+<input [(ngModel)] = "fiat.placa" type="text" placeholder="Qual a placa do carro ?">
 
-  <input type="text"
-  [(ngModel)]= "nome"
-  />
-  <p>Voce digitou: {{nome}}</p>
+<div>
+  <p>Nome = {{fiat.nome}} </p>
+  <p>Cor = {{fiat.cor}} </p>
+  <p>Placa = {{fiat.placa}} </p>
+</div>
+</article>
 
 
